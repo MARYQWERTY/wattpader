@@ -1,0 +1,287 @@
+
+body {
+background-color: #ffcc80;
+}
+
+
+
+
+
+
+#menuprincipal li {
+display: inline-block;
+height: 40px;
+padding: 15px 10px 0px 10px;
+margin-right: 5px;
+
+}
+
+#menuprincipal li:hover {
+background-color: #FFA500;
+
+
+}
+
+header {
+margin: 15px;
+padding: 15px;
+text-align: center;
+
+border-style: solid;
+ border-width: 2px;
+font-family: "Lucida Sans";
+
+}
+
+header span:hover {
+font-family: "showlove";
+}
+
+
+section img {
+float: left;
+margin: 0px 10px;
+
+}
+
+
+
+
+
+article img {
+float: right;
+margin: 0px 10px;
+transition: top 0.5s ease-in-out 0s;
+}
+
+
+
+
+p {
+font-family: "Century Gothic";
+color: #000000;
+
+}
+
+
+
+
+
+
+#caja-1 {
+float: left;
+width: 220px;
+height: 50px;
+margin: 5px;
+background-color: #000000;
+box-shadow: rgb(150,150,150) 5px 5px;
+}
+
+
+
+
+#caja-2 {
+
+ flex: 1 1 400px;
+} 
+
+
+
+
+#articulonoticias {
+font-family: "showlove";
+width: 300px;
+padding: 20px;
+float: right;
+border: 1px solid;
+column-count: 0;
+column-gap: 20px;
+column-rule: 1px solid #000000;
+background-color: #d2b48c;
+outline-offset: 15px;
+}
+
+
+
+
+#infoadicional {
+float: left;
+width: 200px;
+padding: 30px;
+background-color: #FFC0CB;
+border-radius: 10px;
+}
+
+
+h1 {
+font-family: "showlove";
+}
+
+
+
+.seccionpie {
+float: left;
+width: 270px;
+padding: 25px;
+}
+.seccionpie h1 {
+font: bold 20px Arial, sans-serif;
+}
+.seccionpie p {
+margin-top: 5px;
+}
+.seccionpie a {
+font: bold 16px Arial, sans-serif;
+color: #000000;
+text-decoration: none;
+}
+
+
+*{box-sizing:border-box;}
+
+		.container{
+			width:95%;
+			max-width:900px;
+			padding:32px 64px;
+			margin:auto;
+		}
+
+		.social{
+			/*las imágenes usadas tienen width de 48px*/
+			width:48px;
+			position:fixed;
+			top:50px;
+			right:0;
+		}
+
+		/* Extra centrado vertical*/
+
+		.social{
+			/*border:1px solid #000;*/
+			top:50%;
+			height:205px;
+			/*para poner height 192 deberíamos haber indicado en el reset de estilos font-size:0;*/
+			margin-top:-100px;
+		}
+
+
+
+
+#reseñas {
+font-family: "showlove";
+width: 900px;
+padding: 20px;
+float: left;
+border: 1px solid;
+column-count: 0;
+column-gap: 20px;
+column-rule: 1px solid #000000;
+background-color: #fff7ff;
+outline-offset: 15px;
+ margin: 30px;
+ padding: 15px; 
+
+}
+
+
+
+#reseñas2 {
+font-family: "showlove";
+width: 900px;
+padding: 20px;
+float: right;
+border: 1px solid;
+column-count: 0;
+column-gap: 20px;
+column-rule: 1px solid #000000;
+background-color: #ffd0ff;
+outline-offset: 15px;
+
+ margin: 30px;
+ padding: 15px; 
+}
+
+#reseñas3 {
+font-family: "showlove";
+width: 900px;
+padding: 20px;
+float: left;
+border: 1px solid;
+column-count: 0;
+column-gap: 20px;
+column-rule: 1px solid #000000;
+background-color: #fff7ff;
+outline-offset: 15px;
+
+ margin: 30px;
+ padding: 15px; 
+}
+
+#reseñas4 {
+font-family: "showlove";
+width: 900px;
+padding: 20px;
+float: right;
+border: 1px solid;
+column-count: 0;
+column-gap: 20px;
+column-rule: 1px solid #000000;
+background-color: #ffd0ff;
+outline-offset: 15px;
+
+ margin: 30px;
+ padding: 15px; 
+}
+
+#texto {
+font-family: "showlove";
+width: 1000px;
+padding: 20px;
+float: right;
+border: 1px solid;
+column-count: 0;
+column-gap: 20px;
+column-rule: 1px solid #000000;
+background-color: #ffd0ff;
+outline-offset: 15px;
+}
+
+#texto2 {
+font-family: "showlove";
+width: 450px;
+padding: 20px;
+float: left;
+border: 1px solid;
+column-count: 0;
+column-gap: 20px;
+column-rule: 1px solid #000000;
+background-color: #ccccff;
+outline-offset: 15px;
+}
+
+
+
+#texto3 {
+font-family: "showlove";
+width: 450px;
+padding: 20px;
+float: right;
+border: 1px solid;
+column-count: 0;
+column-gap: 20px;
+column-rule: 1px solid #000000;
+background-color: #ccccff;
+outline-offset: 15px;
+}
+
+
+
+#mapa {
+
+font-family: "showlove";
+width: 1000px;
+padding: 20px;
+float: right;
+
+
+}
